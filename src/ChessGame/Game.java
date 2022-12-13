@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Game{
-    ChessBoard chessBoard = null;
+    ChessBoard chessBoard;
     private static Game instance = null;
     private final boolean GAME_IS_RUNNING = true;
     private final int END_GAME_TIMER = 50;
